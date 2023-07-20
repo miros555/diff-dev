@@ -109,22 +109,6 @@ span.before {
 
 input[type="date"]::-webkit-calendar-picker-indicator {
         cursor: pointer;
-    }
-
-
- ::i-block-chrome, ::i-block-firefox {
-  .before {
-	display:none;  
-  }
-}
-
-
-@media not all and (min-resolution:.001dpcm) { 
-  @supports (-webkit-appearance:none) {
-    .before {
-		display:none;  
-	}
-  }
 }
 
 
