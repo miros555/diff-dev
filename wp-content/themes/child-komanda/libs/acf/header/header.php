@@ -1,0 +1,5 @@
+<?php
+/**
+ * Header Block Template.
+ */
+?>

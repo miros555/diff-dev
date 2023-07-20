@@ -1,0 +1,266 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: komanda\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-21 20:51+0000\n"
+"PO-Revision-Date: 2022-02-21 20:55+0000\n"
+"Last-Translator: admin\n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.8; wp-5.9\n"
+"X-Domain: komanda"
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:63
+msgid ", "
+msgstr ", "
+
+#: inc/kmnd_register_post_type.php:28 inc/kmnd_register_post_type.php:109
+msgid "Add"
+msgstr "Добавить"
+
+#: functions.php:92
+msgid "Add widgets here."
+msgstr "Добавьте виджеты сюда."
+
+#: 404.php:24
+msgid "Back to home"
+msgstr "Вернуться домой"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s мысль о “%2$s”"
+msgstr[1] "%1$s мысли о “%2$s”"
+msgstr[2] ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:40
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:39 inc/template-tags.php:100
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: kmnd-theme_settings/settingsPage.php:32
+msgid "Footer"
+msgstr "Нижний колонтитул"
+
+#. Name of the template
+msgid "footer 1"
+msgstr "нижний колонтитул 1"
+
+#: inc/kmnd_register_post_type.php:107
+msgid "footer tamplate"
+msgstr "тампонаж нижнего колонтитула"
+
+#. Name of the template
+msgid "Full Width Page"
+msgstr "Страница Во Всю Ширину"
+
+#: kmnd-theme_settings/settingsPage.php:26
+msgid "Global CSS"
+msgstr "Глобальный CSS"
+
+#: kmnd-theme_settings/settingsPage.php:20
+msgid "Header"
+msgstr "Заголовок"
+
+#: inc/kmnd_register_post_type.php:26
+msgid "header tamplate"
+msgstr "тампонаж жатки"
+
+#. URI of the theme
+#. Author URI of the theme
+msgid "http://komanda.dev"
+msgstr ""
+
+#: 404.php:22
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Похоже, в этом месте ничего не нашли. Может быть, попробовать одну из ссылок "
+"ниже или поискать?"
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Похоже, мы не можем найти то, что вы ищете. Возможно, поиск может помочь."
+
+#. Name of the theme
+msgid "komanda"
+msgstr "komanda"
+
+#. %s: post title
+#: inc/template-tags.php:83
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:70
+msgctxt "list item separator"
+msgid ", "
+msgstr ", "
+
+#: inc/kmnd_register_post_type.php:34 inc/kmnd_register_post_type.php:115
+msgid "New"
+msgstr "Новое"
+
+#: single.php:24
+msgid "Next:"
+msgstr "Далее:"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#. 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Одна мысль о “%1$s”"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Упс! Эта страница не может быть найдена."
+
+#: template-parts/content-page.php:25 template-parts/content.php:53
+msgid "Pages:"
+msgstr "Страницы:"
+
+#. %s: post author.
+#: inc/template-tags.php:46
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "по %с"
+
+#. %s: post date.
+#: inc/template-tags.php:30
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Опубликовано на %s"
+
+#. 1: list of categories.
+#: inc/template-tags.php:66
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Опубликовано в %1$s"
+
+#: single.php:23
+msgid "Previous:"
+msgstr "Предыдущая страница:"
+
+#: functions.php:26
+msgid "Primary"
+msgstr "Первичный"
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: searchform.php:10 inc/kmnd_register_post_type.php:38
+#: inc/kmnd_register_post_type.php:119
+msgid "Search"
+msgstr "Поиск"
+
+#. %s: search query.
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска по запросу: %s"
+
+#. Author of the theme
+msgid "Sergiy"
+msgstr "Сергий"
+
+#: functions.php:90
+msgid "Sidebar"
+msgstr "Боковая панель"
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Извините, но ничто не соответствовало вашим поисковым запросам. Пожалуйста, "
+"попробуйте еще раз с некоторыми другими ключевыми словами."
+
+#. 1: list of tags.
+#: inc/template-tags.php:73
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Tagged %1$s"
+
+#. Description of the theme
+msgid "The theme is designed for projects from komanda"
+msgstr "Тема предназначена для проектов от komanda"
+
+#: kmnd-theme_settings/settingsPage.php:31
+msgid "Theme Footer Settings"
+msgstr "Настройки нижнего колонтитула темы"
+
+#: kmnd-theme_settings/settingsPage.php:10
+msgid "Theme General Settings"
+msgstr "Общие настройки темы"
+
+#: kmnd-theme_settings/settingsPage.php:25
+msgid "Theme Global CSS Settings"
+msgstr "Тема Глобальные настройки CSS"
+
+#: kmnd-theme_settings/settingsPage.php:19
+msgid "Theme Header Settings"
+msgstr "Настройки заголовка темы"
+
+#: kmnd-theme_settings/settingsPage.php:11
+msgid "Theme Settings"
+msgstr "Настройки темы"
+
+#: functions.php:228
+msgid "Theme templates"
+msgstr "Шаблоны тем"
+
+#: inc/kmnd_register_post_type.php:36 inc/kmnd_register_post_type.php:117
+msgid "View"
+msgstr "Вид"
+
+#: kmnd-theme_settings/kmndThemeInit.php:57
+msgid "We are a team"
+msgstr "Мы-одна команда"
+
+#: kmnd-theme_settings/kmndThemeInit.php:59
+msgid ""
+"We create from scratch and support ready-made projects on WordPress. We make "
+"projects of various scales - from Landings to sites of millionaires."
+msgstr ""
+"Мы создаем с нуля и поддерживаем готовые проекты на WordPress. Мы делаем "
+"проекты различного масштаба - от Посадок до сайтов миллионеров."
+
+#: kmnd-theme_settings/kmndThemeInit.php:58
+msgid "WordPress developers"
+msgstr "Разработчики WordPress"
